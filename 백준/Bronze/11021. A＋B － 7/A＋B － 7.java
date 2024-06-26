@@ -5,8 +5,8 @@ public class Main{
         int length = sc.nextInt();
         int num[][] = new int[length][2];
 
-        for(int i = 0; i < length; i++){
-            for(int j = 0; j < 2; j++){
+        for(int i = 0; i < num.length; i++){
+            for(int j = 0; j < num[i].length; j++){
                 int a = sc.nextInt();
                 num[i][j] = a;
             }
