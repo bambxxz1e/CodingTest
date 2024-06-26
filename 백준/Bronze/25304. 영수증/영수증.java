@@ -7,8 +7,8 @@ public class Main{
         int product[][] = new int[total][2];
         int productprice = 0;
         
-        for(int i = 0; i < total; i++){
-            for(int j = 0; j < 2; j++){
+        for(int i = 0; i < product.length; i++){
+            for(int j = 0; j < product[i].length; j++){
                 int a = sc.nextInt();
                 product[i][j] = a;
             }
