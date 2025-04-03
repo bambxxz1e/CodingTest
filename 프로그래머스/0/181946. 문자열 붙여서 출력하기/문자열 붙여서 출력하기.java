@@ -6,6 +6,6 @@ public class Solution {
         String a = sc.next();
         String b = sc.next();
         
-        System.out.print((a + b).replace(" ", ""));
+        System.out.print(a + b);
     }
 }
