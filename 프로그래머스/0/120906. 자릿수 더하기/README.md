@@ -1,10 +1,10 @@
 # [level 0] 자릿수 더하기 - 120906 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120906) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120906?language=python3) 
 
 ### 성능 요약
 
-메모리: 76.1 MB, 시간: 0.02 ms
+메모리: 9.38 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 03월 08일 18:14:43
+2025년 04월 15일 11:45:05
 
 ### 문제 설명
 
