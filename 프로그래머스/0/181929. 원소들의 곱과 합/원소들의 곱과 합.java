@@ -1,15 +1,11 @@
 class Solution {
     public int solution(int[] num_list) {
-        int answer = 0;
-        
-        int div = 1; int sum = 0;
+        int mul = 1; int sum = 0;
         for(Integer n : num_list){
-            div *= n;
+            mul *= n;
             sum += n;
         }
         
-        if(div < sum * sum) answer = 1;
-        
-        return answer;
+        return (mul < sum*sum) ? 1 : 0;
     }
 }
