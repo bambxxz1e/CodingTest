@@ -3,9 +3,7 @@ class Solution {
         String answer = "";
         
         for(int i = 0; i < my_strings.length; i++){
-            for(int j = parts[i][0]; j < parts[i][1] + 1; j++){
-                answer += my_strings[i].charAt(j);
-            }
+            answer += my_strings[i].substring(parts[i][0], parts[i][1] + 1);
         }
         
         return answer;
