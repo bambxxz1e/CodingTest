@@ -1,15 +1,9 @@
 class Solution {
     public int solution(int[] numbers) {
-        int answer = -1;
-        int num[] = new int[10];
+        int answer = 45;
         
-        for(int i = 0; i < numbers.length; i++)
-            num[numbers[i]]++;
-        
-        for(int i = 0; i < num.length; i++)
-            if(num[i] == 0) answer += i;
-        
-        if(answer != -1) answer++;
+        for(int i : numbers)
+            answer -= i;
         
         return answer;
     }
