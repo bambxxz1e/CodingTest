@@ -5,8 +5,8 @@ def solution(arr, divisor):
         if i % divisor == 0:
             answer.append(i)
             
-    if(len(answer) == 0):
-        answer.append(-1)
+    if not answer:
+        answer = [-1]
         
     answer.sort()
     
