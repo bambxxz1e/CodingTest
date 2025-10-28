@@ -3,11 +3,7 @@ def solution(num_list):
     
     for n in num_list:
         while n != 1:
-            if n % 2 == 0:
-                n //= 2
-            else:
-                n = (n - 1) // 2
-                
+            n //= 2
             answer += 1
     
     return answer
