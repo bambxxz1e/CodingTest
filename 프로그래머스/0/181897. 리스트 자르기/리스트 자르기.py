@@ -1,11 +1,11 @@
 def solution(n, slicer, num_list):
-    if n == 1:
-        return num_list[0 : slicer[1] + 1]
-    elif n == 2:
-        return num_list[slicer[0] : ]
-    elif n == 3:
-        return num_list[slicer[0] : slicer[1] + 1]
-    else:
-        return num_list[slicer[0] : slicer[1] + 1 : slicer[2]]
+    a, b, c = slicer
     
-    return 0
+    if n == 1:
+        return num_list[0:b + 1]
+    elif n == 2:
+        return num_list[a:]
+    elif n == 3:
+        return num_list[a:b + 1]
+    else:
+        return num_list[a:b + 1:c]
